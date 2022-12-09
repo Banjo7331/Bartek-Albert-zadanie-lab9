@@ -17,9 +17,11 @@ int main(int argc, char ** argv) {
 	printToScreen(b);
 
 	res = eliminate(A,b);
+	printToScreen(A);
+	printToScreen(b);
 	x = createMatrix(b->r, 1);
 	if (x != NULL) {
-		res = backsubst(x,A,b);
+		//res = backsubst(x,A,b);
 
 		printToScreen(x);
 	  freeMatrix(x);
