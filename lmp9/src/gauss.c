@@ -7,7 +7,7 @@
 int eliminate(Matrix *mat, Matrix *b){
     
 	int l= mat->r;
-
+	/*zmiany w funkcji eliminacji*/
 	for( int k= 0; k < l-1; k++ ) {
 		int najw = k;
 		for( int w = k+1; w < l; w++ )
