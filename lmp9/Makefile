@@ -6,4 +6,6 @@ test: all
 test2: all
 	bin/gauss dane/A1 dane/b1
 test3: all
-	bin/gauss dame/A2 dane/b2
+	bin/gauss dane/A2 dane/b2
+test4:
+	bin/gauss dane/A3 dane/b3
