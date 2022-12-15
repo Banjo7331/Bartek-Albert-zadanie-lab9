@@ -6,6 +6,7 @@
  */
 int eliminate(Matrix *mat, Matrix *b){
     
+
 	int l= mat->r;
 	/*zmiany w funkcji eliminacji*/
 	for( int k= 0; k < l-1; k++ ) {
@@ -28,6 +29,8 @@ int eliminate(Matrix *mat, Matrix *b){
        for( int i= k; i < l; i++ )
 				 mat->data[w][i] -= m * mat->data[k][i];
        b->data[w][0] -= m * b->data[k][0];
+
+	
 		}
 	}
 	
