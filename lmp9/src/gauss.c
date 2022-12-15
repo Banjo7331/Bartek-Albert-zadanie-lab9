@@ -18,6 +18,8 @@ int eliminate(Matrix *mat, Matrix *b){
        b->data[w][0] -= m * b->data[l][0];
 		}
 	}
+	
+	//wspólne działanie na discordzie w związku z dodawaniem elementu diagonalnego
 
 		return 0;
 }
